@@ -1,3 +1,6 @@
-
-
-/*# sourceMappingURL=styles.css.map */
+body{font-family:'Segoe UI',sans-serif;background-color:#def2f1}
+.producto-card{transition:.3s}
+.producto-card:hover{transform:translateY(-5px)}
+.btn-accent{background-color:#ff7b54;color:#fff;border:none}
+.servicio-box{display:flex;justify-content:center;align-items:center;flex-direction:column;background:#fff}
+h2{color:#2b7a78}

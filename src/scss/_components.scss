@@ -1,0 +1,17 @@
+.producto-card {
+  @include card-hover;
+
+  .card-title {
+    color: $primary-color;
+    font-family: $font-primary;
+  }
+
+  .btn-accent {
+    background-color: $accent-color;
+    color: white;
+
+    &:hover {
+      background-color: darken($accent-color, 10%);
+    }
+  }
+}

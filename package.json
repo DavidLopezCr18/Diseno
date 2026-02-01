@@ -1,19 +1,14 @@
 {
-  "name": "diseno",
+  "name": "petshop-amigos-peludos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tienda de mascotas con Bootstrap 5 y SASS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass src/scss/styles.scss src/css/styles.css --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
-    "sass": "^1.97.3"
+    "sass": "^1.77.8"
   }
 }
