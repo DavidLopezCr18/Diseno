@@ -1,7 +1,19 @@
 {
-  "name": "petshop-amigos-peludos",
+  "name": "petshop",
   "version": "1.0.0",
   "description": "Tienda de mascotas con Bootstrap 5 y SASS",
+  "homepage": "https://github.com/DavidLopezCr18/Diseno#readme",
+  "bugs": {
+    "url": "https://github.com/DavidLopezCr18/Diseno/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidLopezCr18/Diseno.git"
+  },
+  "license": "ISC",
+  "author": "David",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "sass": "sass src/scss/styles.scss src/css/styles.css --watch"
   },

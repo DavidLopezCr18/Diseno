@@ -14,3 +14,12 @@ footer {
   @include flex-center;
   background-color: $secondary-color;
 }
+header {
+  margin-bottom: 3rem;
+}
+main {
+  section {
+    margin-top: 2rem;  
+    margin-bottom: 2rem; 
+  }
+}

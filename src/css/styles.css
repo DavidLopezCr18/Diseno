@@ -1,6 +1,46 @@
-body{font-family:'Segoe UI',sans-serif;background-color:#def2f1}
-.producto-card{transition:.3s}
-.producto-card:hover{transform:translateY(-5px)}
-.btn-accent{background-color:#ff7b54;color:#fff;border:none}
-.servicio-box{display:flex;justify-content:center;align-items:center;flex-direction:column;background:#fff}
-h2{color:#2b7a78}
+.producto-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.producto-card .card-title {
+  color: #4caf50;
+  font-family: "Poppins", sans-serif;
+}
+.producto-card .btn-accent {
+  background-color: #ff9800;
+  color: white;
+}
+.producto-card .btn-accent:hover {
+  background-color: rgb(204, 121.6, 0);
+}
+.producto-card main section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  background-color: #4caf50 !important;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e7d32;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+main section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
